@@ -1,2 +1,5 @@
 # Mors-Kod-Cevirici
-Girilen mors kodunu harfe çevirip lcd ekrana yazdıran ve sonrasında da buzzer yardımı ile sese dönüştüren Arduino projesi
+Butondan alınan mors kodunun karşılığı olan harfi lcd ekrana yazdırır. Buzzer aracılığı ile de sese dönüştürür. Bu Arduino projesi üniversite dersi için hazırlanmıştır.
+
+## Şema
+![](morskod_final.png)
