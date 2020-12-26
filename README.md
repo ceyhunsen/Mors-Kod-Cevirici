@@ -2,25 +2,26 @@
 Butondan alınan mors kodunun karşılığı olan harfi lcd ekrana yazdırır. Buzzer aracılığı ile de sese dönüştürür. Bu Arduino projesi üniversite Fizik-II dersi için hazırlanmıştır.
 
 ## Şema
-![](morskod_final.png)
+![](sema.png)
 
 ## Gerekli bileşenler
-* 1 × Arduino
-* 27 × Erkek-erkek jumper kablo
+* 1 × Arduino Uno
+* 27 × Erkek - erkek jumper kablo
 * 3 × Push buton
-* 1 × Lcd ekran(2x16)
+* 1 × Lcd ekran (2 x 16)
 * 1 × Buzzer
-* 3 × 10k ohm direnc
+* 3 × 10k ohm direnç
 * 1 × Breadboard
 * 1 × 10k potansiyometre
 
 ## Kurulum
-1. Bileşenleri şemada gösterildiği gibi takın
-2. Kodu Arduino'ya yükleyin
+1. [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal) kütüphanesini bilgisayarınıza kurun
+2. Bileşenleri şemada gösterildiği gibi takın
+3. Kodu Arduino'ya yükleyin
 
 ## Kullanım
 * Birinci buton: Mors kodunu alır
-* İkinci buton: Mors kodunun karşılığındaki harfi ekrana yazar
+* İkinci buton: Mors kodunu tanımlar ve karşılığındaki harfi ekrana yazar
 * Üçüncü buton: Kelimenin mors kodunu buzzer aracılığı ile sese dönüştürür
 
 ## Lisans
